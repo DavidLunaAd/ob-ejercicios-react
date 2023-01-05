@@ -1,5 +1,5 @@
 import React from 'react'
-import { Contacto } from './contacto'
+import { Contacto } from '../contacto'
 import BComponent from './bcomponent';
 
 function AComponent(props) {
