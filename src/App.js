@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import AComponent from './components/ejercicios-1-2/acomponent';
-import Clock from './components/ejerecicios-4-6/clock';
 import ClockFuncional from './components/ejerecicios-4-6/clockFuncional';
+import ContactoList from './components/ejercicios-7-9/contactoList';
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <AComponent /> */}
         {/* Ejericios 4 - 5 - 6 */}
-        <ClockFuncional />
+        {/* <ClockFuncional /> */}
+        {/* Ejercicios 7 - 8 - 9 */}
+        <ContactoList></ContactoList>
       </header>
     </div>
   );
