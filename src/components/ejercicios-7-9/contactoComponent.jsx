@@ -22,10 +22,11 @@ const ContactoComponent = ({contacto, eliminar}) => {
             <span>{contacto.email}</span>
         </td><td>
             <span>{conect ? 'Conectado ' : 'Desconectado ' } 
-            <button onClick={CambiaEstado} >
-            Cambia estado
-        </button></span>
+            </span>
         </td>
+        <td><button onClick={CambiaEstado} >
+            Cambia estado
+        </button></td>
         <td>
             <span> 
             <button onClick={() => eliminar(contacto)} >

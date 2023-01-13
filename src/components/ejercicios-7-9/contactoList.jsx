@@ -46,6 +46,7 @@ const ContactoList = () => {
                     <th >Apellido</th>
                     <th >Email</th>
                     <th >Estado</th>
+                    <th >Accion</th>
                     <th >Borrar</th>
                 </tr>
                 </thead>
