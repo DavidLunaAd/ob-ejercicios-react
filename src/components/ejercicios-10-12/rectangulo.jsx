@@ -27,9 +27,14 @@ function Rectangulo() {
     };
 
     useEffect(() => {
-      //setInterval(leave, 20000);
+      //setInterval(leave, 1000);
       console.log("renderiza")
-    }, [enter])
+    }, [enter]);
+
+    useEffect(() => {
+      clearInterval(enter);
+      console.log("renderiza")
+    }, [leave])
     
 
     //Cuando se clicka dos veces
@@ -43,10 +48,6 @@ function Rectangulo() {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);
       }    
-
-    // function leave(e) {
-    //     e.target.style.background = 'blue'
-    // };
 
   return (
     <div>
