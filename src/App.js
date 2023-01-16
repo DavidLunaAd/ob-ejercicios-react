@@ -23,11 +23,16 @@ function App() {
         {/* <ContactoList></ContactoList> */}
 
         {/* Ejercicios 10 - 11 - 12 */}
+<<<<<<< HEAD
         {/* <Rectangulo></Rectangulo> */}
 
         {/* Ejercicios 13 - 15 */}
         <TaskList></TaskList>
       </body>
+=======
+        <Rectangulo></Rectangulo>
+      </header>
+>>>>>>> da5b7be4e55cc73fa0ee228da22448db854ecde1
     </div>
   );
 }
