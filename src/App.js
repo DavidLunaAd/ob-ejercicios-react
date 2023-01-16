@@ -19,7 +19,7 @@ function App() {
         <ContactoList></ContactoList>
 
         {/* Ejercicios 10 - 11 - 12 */}
-        {/* <Rectangulo></Rectangulo> */}
+        <Rectangulo></Rectangulo>
       </header>
     </div>
   );
